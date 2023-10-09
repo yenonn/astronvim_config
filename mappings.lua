@@ -32,7 +32,7 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
-    ["<leader>l"] = {":Lazy check<cr>", desc = "Lazy check"},
+    -- ["<leader>l"] = {":Lazy check<cr>", desc = "Lazy check"},
     -- ["<S-l>"] = {function() require("astronvim.utils.buffer").move(vim.v.count > 0 and vim.v.count or 1) end, desc = "Move buffer tab right"},
     -- ["<S-h>"] = {function() require("astronvim.utils.buffer").move(-(vim.v.count > 0 and vim.v.count or 1)) end, desc = "Move buffer tab left"},
     ["<S-l>"] = { 
